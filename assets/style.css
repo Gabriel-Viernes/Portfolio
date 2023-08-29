@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+header nav li {
+    display: inline-block;
+    padding:25px;
+}

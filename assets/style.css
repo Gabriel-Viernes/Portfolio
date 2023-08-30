@@ -1,3 +1,22 @@
+/* variables */
+:root {
+    --bg: #37342f;
+    --text: #ede5d0;
+}
+/* import fonts */
+@font-face {
+    font-family: TF2;
+    src: url(./fonts/TF2.ttf);
+}
+@font-face {
+    font-family: TF2secondary;
+    src: url(./fonts/TF2secondary.ttf);
+}
+@font-face {
+    font-family: tf2build;
+    src: url(./fonts/tf2build.ttf);
+}
+
 header, footer, main {
     display: flex;
     flex-direction: column;

@@ -35,6 +35,11 @@ header h1 {
     margin-bottom: 0px;
 }
 
+header img {
+    height: 15%;
+    width: 15%;
+}
+
 ul {
     list-style: none;
     padding-inline-start: 0px;
@@ -63,8 +68,9 @@ a:visited {
     color: var(--text);
 }
 
-.body-text {
+.about {
     width: 50%;
+    font-size: 24px;
 }
 .proficiency{
     list-style:disc;
@@ -78,15 +84,21 @@ a:visited {
 .recent-work {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 50%;
-
+}
+.recent-work h2 {
+    font-size: 3em;
+}
+.img-large-container {
+    width: 100%;
 }
 .img-large {
     width:100%;
     border: 1em solid var(--button-color);
     border-radius: 15px;
-    overflow: clip;
+
 }
 .img-small-container {
     display: flex;

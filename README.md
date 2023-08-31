@@ -8,7 +8,7 @@ The purpose of this assignment is to create a portfolio from scratch to demonstr
 This is the source code for Horiseon's website, a company provides services such as Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
 
 ## Live Website:
-The live website can be found [here](https://github.com/Gabriel-Viernes/Portfolio)
+The live website can be found [here](https://gabriel-viernes.github.io/Portfolio/)
 
 ## Bug Reports:
 Please use the issue tracker provided by Github [here](https://github.com/Gabriel-Viernes/Portfolio/issues) to submit bug reports

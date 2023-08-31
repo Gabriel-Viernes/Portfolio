@@ -5,7 +5,7 @@ The purpose of this assignment is to create a portfolio from scratch to demonstr
 
 ## Example Screenshot
 ![example screenshot](./assets/img/screenshot.png)
-This is the source code for Horiseon's website, a company provides services such as Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
+This is a coding portfolio for a fictitious character, complete with a bio, links to recent work, and contact information.
 
 ## Live Website:
 The live website can be found [here](https://gabriel-viernes.github.io/Portfolio/)

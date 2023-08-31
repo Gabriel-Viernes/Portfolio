@@ -163,6 +163,7 @@ footer li {
 }
 footer li a {
     text-decoration: none;
+    color: var(--text);
 }
 /* #endregion */
 /* #region mediaQuery */

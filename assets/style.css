@@ -61,6 +61,7 @@ header a {
     border-radius: 15px;
     border : .5em solid var(--button-color);
     font-size: 1.6em;
+    color: var(--text);
 }
 
 header a:hover {

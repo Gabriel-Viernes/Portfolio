@@ -1,11 +1,12 @@
-/* variables */
+/* #region variables */
 :root {
     --bg: #37342f;
     --text: #ede5d0;
     --button-color: #776b5f;
     --button-hover: #934739;
 }
-/* import fonts */
+/* #endregion */
+/* #region fonts */
 @font-face {
     font-family: TF2;
     src: url(./fonts/TF2.ttf);
@@ -16,12 +17,15 @@
 }
 @font-face {
     font-family: tf2build;
-    src: url(./fonts/tf2build.ttf);s
+    src: url(./fonts/tf2build.ttf);
 }
-
+/* #endregion */
+/* #region global */
 * {
     background-color: var(--bg);
 }
+/* #endregion */
+/* #region header */
 header, footer, main {
     font-family: "TF2";
     display: flex;
@@ -67,10 +71,14 @@ header a:hover {
 a:visited {
     color: var(--text);
 }
-
+/* #endregion */
+/* #region about */
 .about {
     width: 50%;
     font-size: 24px;
+}
+.about p {
+    font-family: "TF2secondary";
 }
 .proficiency{
     list-style:disc;
@@ -80,19 +88,28 @@ a:visited {
 .proficiency li {
     display: list-item;
     padding: 0;
+    font-family: "TF2secondary";
 }
+/* #endregion */
+/* #region recent */
 .recent-work {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 60%;
 }
-.recent-work h2 {
+.recent-work h2, footer h2 {
     font-size: 3em;
 }
 .img-large-container {
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2.5%;
 }
 .img-large {
     width:100%;
@@ -127,3 +144,33 @@ a .img-small {
     border : .7em solid var(--button-hover);
     
 }
+/* #endregion */
+/* #region footer */
+footer {
+    display: flex;
+    flex-direction: column;   
+}
+footer ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+footer li {
+    display: inline-block;
+    padding:25px;
+    font-family: "tf2build";
+    font-size: 1.5em;
+}
+footer li a {
+    text-decoration: none;
+}
+/* #endregion */
+
+@media screen and (max-width:1000px) {
+    footer li {
+        display:flex;
+
+        padding: 5px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px) {}

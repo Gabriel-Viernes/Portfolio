@@ -1,11 +1,11 @@
 # Portfolio
 
 ## Description
-The purpose of this assignment is to create a portfolio from scratch to demonstrate HTML and CSS skills learned up until this point.
+The purpose of this assignment is to create a portfolio from scratch to demonstrate HTML and CSS skills learned up until this point. The website itself is a coding portfolio for a fictitious character, complete with a bio, links to recent work, and contact information.
+
 
 ## Example Screenshot
 ![example screenshot](./assets/img/screenshot.png)
-This is a coding portfolio for a fictitious character, complete with a bio, links to recent work, and contact information.
 
 ## Live Website:
 The live website can be found [here](https://gabriel-viernes.github.io/Portfolio/)
